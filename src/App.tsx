@@ -90,6 +90,11 @@ function App() {
           <button className="text-lg font-semibold border-2 border-white py-7 px-14 bg-black text-white">BOOK A TABLE</button>
         </div>
       </section>
+
+      <section id="cta" className="text-center px-6">
+        <p className="text-3xl font-bold mb-6">Ready to make a reservation?</p>
+        <button className="text-lg font-semibold border-2 border-black py-7 px-14 bg-transparent">BOOK A TABLE</button>
+      </section>
     </main>
   );
 }
