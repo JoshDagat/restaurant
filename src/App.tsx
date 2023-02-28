@@ -1,5 +1,8 @@
 import './App.css';
-import countryImg from "./assets/country-side-mobile.jpg"
+import countryImg from "./assets/country-side-mobile.jpg";
+import salmon from "./assets/salmon-mobile.jpg";
+import filet from "./assets/filet-mignon-mobile.jpg"
+import mousee from "./assets/mousee-mobile.jpg";
 
 function App() {
   return (
@@ -46,15 +49,31 @@ function App() {
         </div>
       </section>
 
-      <section id="menu-highlights">
+      <section id="menu-highlights" className="text-center px-6 bg-black text-white pb-28 pt-24">
         <div className="divider max-w-[76px] mx-auto mb-9">
           <span className="rounded-full bg-primary_beaver h-4 w-4 d block relative 
           before:content-[''] before:absolute before:h-[10px] before:w-[10px] before:bg-white before:rounded-full before:-mt-[0.3rem] before:-ml-[0.3rem] before:top-1/2 before:left-1/2
           after:content-[''] after:w-[56px] after:h-[2px] after:bg-primary_beaver after:absolute after:block after:top-1/2 after:left-8"
           ></span>
         </div>
-        <h2>A few highlights from our menu</h2>
-        <p></p>
+        <h2 className="text-4xl font-bold mb-4">A few highlights from our menu</h2>
+        <p className="leading-7 mb-24">We cater for all dietary requirements, but here's a glimpse at some of our diner's favourites. Our menu is revamped every season</p>
+
+        <div className="menu-card mb-6 not-last:border-b-2 not-last:border-[hsla(0,0%,59%,0.25)]">
+          <img src={salmon} alt="" className="mb-9"/>
+          <h3 className="text-xl font-bold leading-7">Seared Salmon Fillet</h3>
+          <p className="pb-14">Our locally sourced salmon served with a refreshing buckwheat summer salad.</p>
+        </div>
+        <div className="menu-card mb-6 not-last:border-b-2 not-last:border-[hsla(0,0%,59%,0.25)]">
+          <img src={filet} alt="" className="mb-9"/>
+          <h3 className="text-xl font-bold leading-7">Rosemary Filet Mignon</h3>
+          <p className="pb-14">Our prime beef served to your taste with a delicious choice of seasonal sides.</p>
+        </div>
+        <div className="menu-card mb-6 not-last:border-b-2 not-last:border-[hsla(0,0%,59%,0.25)]">
+          <img src={mousee} alt="" className="mb-9"/>
+          <h3 className="text-xl font-bold leading-7">Summer Fruit Chocolate Mousse</h3>
+          <p className="not-last:pb-14">Creamy mousse combined with summer fruits and dark chocolate shavings.</p>
+        </div>
       </section>
     </main>
   );
