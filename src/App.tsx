@@ -3,6 +3,7 @@ import countryImg from "./assets/country-side-mobile.jpg";
 import salmon from "./assets/salmon-mobile.jpg";
 import filet from "./assets/filet-mignon-mobile.jpg"
 import mousee from "./assets/mousee-mobile.jpg";
+import family from "./assets/family-mobile.jpg";
 
 function App() {
   return (
@@ -73,6 +74,20 @@ function App() {
           <img src={mousee} alt="" className="mb-9"/>
           <h3 className="text-xl font-bold leading-7">Summer Fruit Chocolate Mousse</h3>
           <p className="not-last:pb-14">Creamy mousse combined with summer fruits and dark chocolate shavings.</p>
+        </div>
+      </section>
+
+      <section id="family-gathering" className="px-6 pt-14 text-center mb-32">
+        <img src={family} alt="" className="mb-8"/>
+        <div className="content">
+          <ul className="mb-7">
+            <li className="font-semibold">FAMILTY GATHERING</li>
+            <li className="font-semibold">SPECIAL EVENTS</li>
+            <li className="font-semibold">SOCIAL EVENTS</li>
+          </ul>
+          <h2 className="text-3xl font-bold">Family Gathering</h2>
+          <p className="mb-7">We love catering for entire families. So please bring everyone along for a special meal with your loved ones. We'll provide a memorable experience for all.</p>
+          <button className="text-lg font-semibold border-2 border-white py-7 px-14 bg-black text-white">BOOK A TABLE</button>
         </div>
       </section>
     </main>
