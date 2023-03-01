@@ -7,7 +7,6 @@ const FamilyGathering = () => {
   const [active, setActive] = useState(1);
 
   const activeChoice = choices.find((choice:IChoice) => choice.id === active);
-  console.log(activeChoice)
 
   return (
     <section id="family-gathering" className="px-6 pt-14 text-center mb-32">
