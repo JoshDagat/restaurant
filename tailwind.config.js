@@ -19,8 +19,10 @@ module.exports = {
         league_spartan : ["League Spartan", "sans-serif"]
       },
       backgroundImage: {
-        hero_desktop: "url(./assets/hero-deskto.jpg)",
-        hero_mobile: "url(./assets/hero-mobile.jpg)"
+        hero_desktop: "url(/src/assets/hero-deskto.jpg)",
+        hero_mobile: "url(/src/assets/hero-mobile.jpg)",
+        feature_one: "url(/src/assets/country-side-mobile.jpg)",
+        feature_two: "url(/src/assets/locally-source-mobile.jpg)"
       }
     },
   },
