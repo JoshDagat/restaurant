@@ -22,7 +22,11 @@ module.exports = {
         hero_desktop: "url(/src/assets/hero-deskto.jpg)",
         hero_mobile: "url(/src/assets/hero-mobile.jpg)",
         feature_one: "url(/src/assets/country-side-mobile.jpg)",
-        feature_two: "url(/src/assets/locally-source-mobile.jpg)"
+        feature_two: "url(/src/assets/locally-source-mobile.jpg)",
+        cta: `url(/src/assets/reservation-bg-mobile.jpg)`
+      },
+      background: {
+
       }
     },
   },

@@ -32,3 +32,7 @@
         clip-path: polygon(0 30%, 0% 100%, 100% 100%, 100% 30%);
     }
 }
+
+.backg-cta {
+    background: red url("./assets//reservation-bg-mobile.jpg");
+}
